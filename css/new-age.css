@@ -3,13 +3,6 @@
  * Copyright 2013-2016 Start Bootstrap
  * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap/blob/gh-pages/LICENSE)
  */
-
- #mc_embed_signup{
-   background:#fff;
-   clear:left;
-   font:14px Helvetica,Arial,sans-serif; }
- /* Add your own MailChimp form style overrides in your site stylesheet or in this style block.
-    We recommend moving this block and the preceding CSS link to the HEAD of your HTML file. */
 .heading-font {
   font-family: 'Catamaran', 'Helvetica', 'Arial', 'sans-serif';
   font-weight: 200;
@@ -35,11 +28,11 @@ a {
   -webkit-transition: all 0.35s;
   -moz-transition: all 0.35s;
   transition: all 0.35s;
-  color: #fdcc52;
+  color: #DE3A79;
 }
 a:hover,
 a:focus {
-  color: #fcbd20;
+  color: #DE3A79;
 }
 hr {
   max-width: 100px;
@@ -64,7 +57,7 @@ p {
   font-size: 18px;
   line-height: 1.5;
   margin-bottom: 20px;
-}
+
 .navbar-default {
   background-color: white;
   border-color: rgba(34, 34, 34, 0.05);
@@ -338,10 +331,14 @@ section.cta .overlay {
 }
 section.contact {
   text-align: center;
+  color: #FC7651;
 }
 section.contact h2 {
   margin-top: 0;
   margin-bottom: 25px;
+}
+section.contact a {
+  color: #DE3A79;
 }
 section.contact h2 i {
   color: #dd4b39;
